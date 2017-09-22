@@ -4,17 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>SecondFile</title>
+<title>Registration</title>
 </head>
 <body>
-<div>==============================================</div>
-<div>This is From my Second jsp File.</div>
-<div>
-	<form action="doLogin">
+	<form action="Registration">
+		Email:<input type="text" name="email" /><br>
 		User:<input type="text" name="user" /><br>	
 		Password:<input type="password" name="password" /><br>
+ 		Confirm Password: <input type="password" name="passwordConfirmation" /><br>
 		<input type="submit" value="Submit!" />
-	</form></div>
-<div>==============================================</div>
+	</form>
 </body>
 </html>

@@ -72,9 +72,9 @@
 	<%@ page import="org.Hello.Connector" %>
 	<div>
 		<%
-			if(!Connector.getConnection().isClosed()) {
+			//if(!Connector.getConnection().isClosed()) {
 				out.println("Connected");
-			};
+			//};
 		%>
 	</div>
 	<div>----------------------------------------------------------------------------------------------------------</div>
